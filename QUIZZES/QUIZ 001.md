@@ -8,19 +8,10 @@
 | (1b@!)        | (4)    |
 
 ### Solution to the Black Box
+![WhatsApp Image 2022-10-02 at 14 48 09](https://user-images.githubusercontent.com/111819437/193440045-5b592c9c-20f6-47de-831e-91b6a5b7902f.jpeg)
 
 ### Flowchart
+![QUIZ 001](https://user-images.githubusercontent.com/111819437/193438257-09d4aa3f-1882-42eb-be02-e7485f0c1243.png)
 
 ### Code
-String = input("Please enter a string: ")
-lenght = int(len(String))
-
-if lenght<3:   #Confirm that the string is bigger than 2 characteres
-    print(String)
-
-else:
-    first = String[0] #First Character
-    last = String[lenght-1] #Last Character
-    middle = str(lenght-2) #Middle of string
-
-print(f"{first}{middle}{last}")
+![Screen Shot 2022-10-02 at 13 47 38](https://user-images.githubusercontent.com/111819437/193438328-ee45e3e1-ddea-4ff8-b5b7-49d6383bc45e.png)
