@@ -1,7 +1,8 @@
 # QUIZ 001
 
-### Solution to QUIZ 001
+### Solution to the Black BOX
 
+### Solution to QUIZ 001
 
 | Input         | Output |
 |---------------|--------|
