@@ -1,18 +1,32 @@
 # Unit-1.-A-
 # Crypto Wallet
 
-![](22ROOSE-master768.gif)  
-<sub>Illustration for Glenn Harvey</sub>
-
 # Criteria A: Planning
 
 ## Problem definition
 
-Ms. Sato is a local trader who is interested in the emerging market of cryptocurrencies. She has started to buy and sell electronic currencies, however at the moment she is tracking all his transaction using a ledger in a spreadsheet which is starting to become burdensome and too disorganized. It is also difficult for Ms Sato to find past transactions or important statistics about the currency. Ms Sato is in need of a digital ledger that helps her track the amount of the cryptocurrency, the transactions, along with useful statistics. 
+My client is Ms. Jones. She just moved in to live alone and needs to organize her expenses. She has a lot of interest in cryptocurrencies and currently she is using spreadsheets to store her entire expense database and so has been facing difficulties in keeping all the data organized because it is not possible for her to find useful statistics of her expenses, and she’s having trouble getting organized with the transactions.
 
-Apart for this requirements, Ms Sato is open to explore a cryptocurrency selected by the developer.
+DATABASE
 
-An example of the data stored is 
+FOOD...........02/09/2022.....100 DOT
+RENT...........03/09/2022.....500 DOT
+TRAVEL.........04/09/2022.....600 DOT
+FOOD...........05/10/2022.....900 DOT
+SAVING.........06/10/2022.....4000 DOT
+TRAVEL.........07/10/2022.....2000 DOT
+FOOD............02/11/22......1000 DOT
+FOOD...........06/11/2022.....200 DOT
+FOOD...........03/11/2022.....300 DOT
+RENT...........09/12/2022.....500 DOT
+SAVING.........10/10/2022.....6000 DOT
+FOOD...........03/08/2022.....200 DOT
+FOOD...........01/10/2022.....50 DOT
+FOOD...........12/10/2022.....300 DOT
+FOOD...........12/09/2022.....100 DOT
+TRAVEL.........10/09/2022.....100 DOT
+FOOD...........09/10/2022.....200 DOT
+RENT...........09/10/2022.....500 DOT
 
 | Date | Description | Category | Amount  |
 |------|-------------|----------|---------|
