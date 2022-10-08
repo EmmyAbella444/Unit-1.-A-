@@ -39,27 +39,6 @@ RENT...........09/10/2022.....500 DOT
 Design statement:
 I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
 
-** add a description of your coin and citation **
-| Group 1   |              |   | Group  2  |           |
-|-----------|--------------|---|-----------|-----------|
-| Developer | Digital Coin |   | Developer | Coin      |
-| Alex      | Bitcoin      |   | Alek      | Solana    |
-| Bernard   | Ethereum     |   | Mai       | Dogecoin  |
-| Yutaro    | Dogecoin     |   | Daniela   | BInance   |
-| Verlon    | Apecoin      |   | Kris      | Bitcoin   |
-| Oswell    | Tether       |   | Paula     | Lumens    |
-| Thumula   | Tron         |   | ZAven     | Ethereum  |
-| Ainee     | Mana         |   | Jonathan  | Maker     |
-| Lison     | Solana       |   | Kai       | Avalanche |
-| Sabu      | Binance      |   | Daiichiro | Flow      |
-| Emmy      | Polkadot     |   | Masamu    | Cardano   |
-| Maria     | Cardano      |   | Yasmina   | Zcash     |
-| Zelan     | Cosmos       |   | Jana      | LiteCoin  |
-| Manahil   | BinanceUSD   |   | Lyn       | Iota      |
-| Krish     | UsdCoin      |   | Meisa     | Polkadot  |
-|           |              |   | Mayte     | Cosmos    |
-|           |              |   | Pop       | Ripple    |
-Justify the tools/structure of your solution
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
@@ -72,7 +51,9 @@ Justify the tools/structure of your solution
 # Criteria B: Design
 
 ## System Diagram!
-[Screen Shot 2022-10-04 at 10 26 26](https://user-images.githubusercontent.com/111819437/194717407-6111f888-07ae-4b4d-bbfc-a760cdf2e316.png)
+
+![Screen Shot 2022-10-09 at 1 25 53](https://user-images.githubusercontent.com/111819437/194717569-5c5c2e9a-099d-4881-bdf0-83658332774e.png)
+
 
 
 
