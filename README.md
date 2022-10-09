@@ -7,7 +7,7 @@
 
 My client is Ms. Jones. She just moved in to live alone and needs to organize her expenses. She has a lot of interest in cryptocurrencies and currently she is using spreadsheets to store her entire expenses database and so has been facing difficulties in keeping all the data organized because it is not possible for her to find useful statistics of her expenses, and she’s having trouble getting organized with the transactions.
 
-HER DATABASE
+HER INITIAL DATABASE
 
 FOOD...........02/09/2022.....100 DOT
 RENT...........03/09/2022.....500 DOT
@@ -32,7 +32,7 @@ RENT...........09/10/2022.....500 DOT
 ## Proposed Solution
 
 Design statement:
-I will to design and make a Digial Wallet for a client who is Ms. Jones. The Digital wallet will about ———— and is constructed using the software pyvharm. It will take  ———- to make and will be evaluated according to the criteria ———.
+I will to design and make a Digial Wallet for a client who is Ms. Jones. The Digital wallet will about ———— and is constructed using the software pycharm. It will take  ———- to make and will be evaluated according to the criteria ———.
 
 
 ## Success Criteria
@@ -63,9 +63,39 @@ I will to design and make a Digial Wallet for a client who is Ms. Jones. The Dig
 
 
 ## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
-|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 24                 | B         |
+| Task No 	| Planned Action                                                     	| Planned Outcome                                                                                                             	| Time estimate 	| Target completion date 	| Criterion 	|
+|---------	|--------------------------------------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------	|---------------	|------------------------	|-----------	|
+| 1       	| Create system diagram                                              	| To have a clear idea of the hardware and software requirements <br>for the proposed solution.                               	| 10 minutes    	| 24 sept                	| B         	|
+| 2       	| Define the problem                                                 	| to have a clear idea on how to solve this problem and the best tools <br>for the project.                                   	| 20 minutes    	| 4 oct                  	| A         	|
+| 3       	| Proposed the solution                                              	| to have a clear idea of the final project                                                                                   	| 20 minutes    	| 4 oct                  	| A         	|
+| 4       	| Choose and finish the list of success criteria                     	| To have a clear idea on how to organize the code and<br>to create the menu of options.                                      	| 20 minutes    	| 4 oct                  	| A         	|
+| 5       	| Create the initial messages of the program                         	| to welcome the user and give them instructions                                                                              	| 20 minutes    	| 4 oct                  	| C         	|
+| 6       	| Create a database for username and password of the user (user.csv) 	| to store username and password of the user and make the program secure                                                      	| 20 minutes    	| 4 oct                  	| C         	|
+| 7       	| Create the option for user to register in the program              	| The username and password that the user chose it is going to be stored in the database                                      	| 20 minutes    	| 4 oct                  	| C         	|
+| 8       	| Show instructions on how to create a safe password                 	| Helps the user to create a strong password and make the program more safe                                                   	| 20 minutes    	| 4 oct                  	| C         	|
+| 9       	| Create the option to log in                                        	| To allow the user to just log in checking the username and password in the database,<br> without need to register again.    	| 20 minutes    	| 4 oct                  	| C         	|
+| 10      	| Create the menu following the success criteria                     	| To organize and show the user all the options in the program                                                                	| 20 minutes     	| 4 oct                  	| C         	|
+| 11      	| Create a database to store all the user data (db.csv)              	| To store all the data(categories,amount,date) And use this database to code <br>the option on the menu.                     	| 20 minutes    	| 4 oct                  	| C         	|
+| 12      	| Create Library with functions to validate the input                	| To prevent the program from breaking                                                                                        	| 1 hour        	| 5 oct                  	| C         	|
+| 13      	| Code for the first option : Show all data                          	| To show all data for the user in a organized way (date, categories and amount)                                              	| 20 minutes    	| 5 oct                  	| C         	|
+| 14      	| Code for the second option: Enter new data                         	| To allow the user to withdraw and deposit money and record the transactions in the database                                 	| 30 minutes    	| 5 oct                  	| C         	|
+| 15      	| Code the third option : Graph of transactions                      	| to allow the user to see wich category she spend more money with a graph of the amount<br> of transactions in wich category 	| 30 minutes    	| 5 oct                  	| C         	|
+| 15      	| Code for the fourth option :Show information about polkadot        	| To allow the user to see useful informations about the criptocurrency in an easy and organized way                          	| 30 minutes    	| 5 oct                  	| C         	|
+| 16      	| Code for the fifth option: Show the total spend by category        	| To allow the user to see the total spend by category(food, rent and travel)                                                 	| 30 minutes    	| 6 oct                  	| C         	|
+| 17      	| Create database to put the value of DOT                            	| To allow the user to use the option 6 with the value always update (convert)                                                	| 30 minutes    	| 6 oct                  	| C         	|
+| 18      	| Code for the sixth option: Convert the money                       	| Use the database (convert) to allow the user to convert Dollars to DOT and DOT to dollars                                   	| 30 minutes    	| 6 oct                  	| C         	|
+| 19      	| Code for the seventh option:Show the total spend by month          	| To allow the user to see the total spend by month.                                                                          	| 30 minutes    	| 6 oct                  	| C         	|
+| 20      	| Code for the eighth option: About the the program                  	| To show the user useful informations about the program and the author                                                       	| 30 minutes    	| 7 oct                  	| C         	|
+| 21      	| Code for the ninth option:Show the total spend                     	| To allow the user to see the total spend during all months and all categories.                                              	| 30 minutes    	| 7 oct                  	| C         	|
+| 22      	| Code for the tenth option:Show the total saved                     	| To allow the user to see how much money she still has saved                                                                 	| 30 minutes    	| 7 oct                  	| C         	|
+| 23      	| Code for the eleventh option: Exit                                 	| To exit the program and say bye to the user                                                                                 	| 30 minutes    	| 7 oct                  	| C         	|
+| 24      	| Create a while loop to the options                                 	| To allow the user to enter more than an option without the program closing                                                  	| 1 hour        	| 8 oct                  	| C         	|
+| 25      	| Put comments in the program                                        	| To allow other programmers to understand how the program works                                                              	| 10 minutes    	| 8 oct                  	| C         	|
+| 26      	| Make the design of the program organized and pretty                	| To allow the the user to understand the instructions and make the program attractive for the user                           	| 2 hours       	| 8 oct                  	| C         	|
+| 27      	| Messages of clear instructions and feedbacks for the user          	| To make the program more accessible                                                                                         	| 30 minutes    	| 8 oct                  	| C         	|
+| 28      	| Fix all the errors in the code                                     	| To make the program work without errors                                                                                     	| 3 hours       	| 8 oct                  	| C         	|
+| 29      	| Make the flow diagrams                                             	| Allow other people to understand the logic and the code                                                                     	| 1 hour        	| 9 oct                  	| B         	|
+| 30      	| record the program working                                         	| Allow people to have an over view of  the program                                                                           	| 5 minutes     	| 9 oct                  	| B         	|                                                  
 
 # Criteria C: Development
 ## Video
@@ -95,3 +125,5 @@ def simple_login(user:str, password:str)->bool:
 
 
 ```
+
+## My client required a sy
