@@ -98,11 +98,11 @@ I will to design and make a Digial Wallet for a client who is Ms. Jones. The Dig
 | 30      	| record the program working                                         	| Allow people to have an over view of  the program                                                                           	| 5 minutes     	| 9 oct                  	| B         	|                                                  
 
 # Criteria C: Development
-## Video
+## Video of programming working
 https://drive.google.com/file/d/1xSMWb3NAR36VVdIT2tJIxBc5eABkqSQU/view?usp=sharing
 
 ## Login System
-My client requires a system to protect the private data. I thought about using a login system to accomplish this requirement using a if condition and the open command to work with a csv file. More description of the code....
+My client requires a system to protect the private data. I thought about using a login system to accomplish this requirement using a if condition and the open command to work with a csv file. 
 ```.py
 def simple_login(user:str, password:str)->bool:
     '''
@@ -126,4 +126,66 @@ def simple_login(user:str, password:str)->bool:
 
 ```
 
-## My client required a sy
+## Organize data
+My client required an option to show all data organized. I created a file with all the database and an option to open the database and read. After print the data in an organized way.
+
+### database
+
+![Screen Shot 2022-10-09 at 15 14 44](https://user-images.githubusercontent.com/111819437/194741230-183c70cc-909e-42d5-81f5-5295c8b4ca03.png)
+
+### code to open, read and print database
+![Screen Shot 2022-10-09 at 15 14 44](https://user-images.githubusercontent.com/111819437/194741343-d269b26a-9198-41a4-ae38-4fcdec420d19.png)
+
+## Enter new transactions and saving
+My client required an option to enter new transactions and deposit, I create an option that asks the user for the date, category and amount of transaction, and the open the Database file and print the new data
+
+![Screen Shot 2022-10-09 at 15 25 50](https://user-images.githubusercontent.com/111819437/194741486-606b3565-5e8f-40e7-8d58-5944a1a4b214.png)
+
+## Graph
+My client required an option to show useful statistics. I tought about creating a graph,first open and read the database and the striping and splitting the lines to have the values, date and category. The I sum all the values of the different cattegories and divided by 100 and multiplied a square of by the result and printing creating a graph of the amout of money spend in each category.
+if option == 3:
+        title_graph = "💲Graph of transactions💲"
+        confirm_option_3 = "You entered option 3:"  # Message to confirm the option for the user
+        print(f"{purple_bold}▶{end_code}{gray_background}{confirm_option_3}{purple_bold}◀{end_code}{end_code}")
+        print(" ")
+        print(f"{'▩' * 10} {purple_background}{title_graph}{end_code} {'▩' * 10}")
+        print(' ')
+        with open("db.csv") as file:
+            database = file.readlines()
+
+            food = 0
+            saving = 0
+            travel = 0
+            rent = 0
+            # read every line, stripped and splitted
+            for item in database:
+                stripped_line = item.strip()
+                separated_line = stripped_line.split(",")
+                date = separated_line[0]
+                category = separated_line[1]
+                value = int(separated_line[2])
+                # sum values
+                if category.lower() in "food":
+                    food += value
+
+                if category.lower() in "saving":
+                    saving += value
+
+                if category.lower() in "travel":
+                    travel += value
+
+                if category.lower() in "rent":
+                    rent += value
+
+            # make graph
+
+            print(f"{'Food'.ljust(10, '.')} {purple_bold}{'■' * (food // 100)}{end_code} {food}")
+            print(f"{'Saving'.ljust(10, '.')} {purple_bold}{'■' * (saving // 100)}{end_code} {saving}")
+            print(f"{'Travel'.ljust(10, '.')} {purple_bold}{'■' * (travel // 100)}{end_code} {travel}")
+            print(f"{'Rent'.ljust(10, '.')} {purple_bold}{'■' * (rent // 100)}{end_code} {rent}")
+            
+
+
+
+
+
