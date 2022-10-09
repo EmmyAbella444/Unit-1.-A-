@@ -140,8 +140,6 @@ My client required an option to enter new transactions and deposit, I create an 
 
 
 
-
-
 ## Graph
 My client required an option to show useful statistics. I tought about creating a graph. First the program open and read the database and then strip and split the lines to have the values, date and category. Then I add all the values of the different cattegories and divided by 100 and multiplied a square  by the result and printing creating a graph of the amout of money spend in each category.
 
@@ -151,6 +149,10 @@ My client required an option to show useful statistics. I tought about creating 
 
 
                 
+
+
+
+
 
             
 
