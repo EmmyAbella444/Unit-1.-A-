@@ -43,10 +43,17 @@ I will design and make a Digial Wallet for a client who is Ms. Jones. The Digita
 
 ## Flow Diagrams
 
-### Function to validate the category(rent,food,travel,saving) used on option 2 to enter new transaction and option 5 to show the total spend of a category: :
+###  Flow diagram of the Function to validate the category(rent,food,travel,saving) used on option 2 to enter new transaction and option 5 to show the total spend of a category: 
 
 ![QUIZ 002 (3)](https://user-images.githubusercontent.com/111819437/194742628-c167268c-aa7a-45f6-821a-79ae0288c213.png)
 
+### Flow diagram of function to validate the option of the menu and check if the user chose an option between 1-11:
+
+![QUIZ 002 (5)](https://user-images.githubusercontent.com/111819437/194751508-0f173a6d-9b22-4254-8567-27a65d359b89.png)
+
+### Flow diagram of the option to convert USD to DOT and DOT to USD
+
+![QUIZ 002 (6)](https://user-images.githubusercontent.com/111819437/194752205-8d900955-4ae3-4fee-96ac-ac4e14c1ca5a.png)
 
 
 ## Record of Tasks
@@ -61,7 +68,7 @@ I will design and make a Digial Wallet for a client who is Ms. Jones. The Digita
 | 7       	| Create the option for user to register in the program              	| The username and password that the user chose it is going to be stored in the database                                      	| 20 minutes    	| 4 oct                  	| C         	|
 | 8       	| Show instructions on how to create a safe password                 	| Helps the user to create a strong password and make the program more safe                                                   	| 20 minutes    	| 4 oct                  	| C         	|
 | 9       	| Create the option to log in                                        	| To allow the user to just log in checking the username and password in the database,<br> without need to register again.    	| 20 minutes    	| 4 oct                  	| C         	|
-| 10      	| Create the menu following the success criteria                     	| To organize and show the user all the options in the program                                                                	| 20 minutes     	| 4 oct                  	| C         	|
+| 10      	| Create the menu following the success criteria                     	| To organize and show the user all the options in the program                                                                	| 20 minute     	| 4 oct                  	| C         	|
 | 11      	| Create a database to store all the user data (db.csv)              	| To store all the data(categories,amount,date) And use this database to code <br>the option on the menu.                     	| 20 minutes    	| 4 oct                  	| C         	|
 | 12      	| Create Library with functions to validate the input                	| To prevent the program from breaking                                                                                        	| 1 hour        	| 5 oct                  	| C         	|
 | 13      	| Code for the first option : Show all data                          	| To show all data for the user in a organized way (date, categories and amount)                                              	| 20 minutes    	| 5 oct                  	| C         	|
@@ -76,13 +83,14 @@ I will design and make a Digial Wallet for a client who is Ms. Jones. The Digita
 | 21      	| Code for the ninth option:Show the total spend                     	| To allow the user to see the total spend during all months and all categories.                                              	| 30 minutes    	| 7 oct                  	| C         	|
 | 22      	| Code for the tenth option:Show the total saved                     	| To allow the user to see how much money she still has saved                                                                 	| 30 minutes    	| 7 oct                  	| C         	|
 | 23      	| Code for the eleventh option: Exit                                 	| To exit the program and say bye to the user                                                                                 	| 30 minutes    	| 7 oct                  	| C         	|
-| 24      	| Create a while loop to the options in the menu                                	| To allow the user to enter more than an option without the program closing                                                  	| 1 hour        	| 8 oct                  	| C         	|
+| 24      	| Create a while loop to the options                                 	| To allow the user to enter more than an option without the program closing                                                  	| 1 hour        	| 8 oct                  	| C         	|
 | 25      	| Put comments in the program                                        	| To allow other programmers to understand how the program works                                                              	| 10 minutes    	| 8 oct                  	| C         	|
 | 26      	| Make the design of the program organized and pretty                	| To allow the the user to understand the instructions and make the program attractive for the user                           	| 2 hours       	| 8 oct                  	| C         	|
 | 27      	| Messages of clear instructions and feedbacks for the user          	| To make the program more accessible                                                                                         	| 30 minutes    	| 8 oct                  	| C         	|
 | 28      	| Fix all the errors in the code                                     	| To make the program work without errors                                                                                     	| 3 hours       	| 8 oct                  	| C         	|
 | 29      	| Make the flow diagrams                                             	| Allow other people to understand the logic and the code                                                                     	| 1 hour        	| 9 oct                  	| B         	|
-| 30      	| record the program working                                         	| Allow people to have an over view of  the program                                                                           	| 5 minutes     	| 9 oct                  	| B         	|                                                  
+| 30      	| Review of the program                                              	| Check all functions and option                                                                                              	| 2 hours       	| 9 oct                  	| C         	|
+| 31      	| record the program working                                         	| Allow people to have an over view of  the program                                                                           	| 10 minutes    	| 9 oct                  	| B         	|                                      
 
 # Criteria C: Development
 ## Video of programming working
@@ -135,7 +143,7 @@ My client required an option to enter new transactions and deposit, I create an 
 
 
 ## Graph
-My client required an option to show useful statistics. I tought about creating a graph. First the program open and read the database and then strip and split the lines to have the values, date and category. Then I add all the values of the different cattegories and divided by 100 and multiplied a square of by the result and printing creating a graph of the amout of money spend in each category.
+My client required an option to show useful statistics. I tought about creating a graph. First the program open and read the database and then strip and split the lines to have the values, date and category. Then I add all the values of the different cattegories and divided by 100 and multiplied a square  by the result and printing creating a graph of the amout of money spend in each category.
 
 ![Screen Shot 2022-10-09 at 19 17 09](https://user-images.githubusercontent.com/111819437/194751194-677bc567-d9e5-496d-8b57-b1aeb1b3aadb.png)
 
