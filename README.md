@@ -5,34 +5,16 @@
 
 ## Problem definition
 
-My client is Ms. Jones. She just moved in to live alone and needs to organize her expenses. She has a lot of interest in cryptocurrencies and currently she is using spreadsheets to store her entire expenses database and so has been facing difficulties in keeping all the data organized because it is not possible for her to find useful statistics of her expenses, and she’s having trouble getting organized with the transactions.
-
-HER INITIAL DATABASE
-
-FOOD...........02/09/2022.....100 DOT
-RENT...........03/09/2022.....500 DOT
-TRAVEL.........04/09/2022.....600 DOT
-FOOD...........05/10/2022.....900 DOT
-SAVING.........06/10/2022.....4000 DOT
-TRAVEL.........07/10/2022.....2000 DOT
-FOOD............02/11/22......1000 DOT
-FOOD...........06/11/2022.....200 DOT
-FOOD...........03/11/2022.....300 DOT
-RENT...........09/12/2022.....500 DOT
-SAVING.........10/10/2022.....6000 DOT
-FOOD...........03/08/2022.....200 DOT
-FOOD...........01/10/2022.....50 DOT
-FOOD...........12/10/2022.....300 DOT
-FOOD...........12/09/2022.....100 DOT
-TRAVEL.........10/09/2022.....100 DOT
-FOOD...........09/10/2022.....200 DOT
-RENT...........09/10/2022.....500 DOT
+Ms. Jones just moved in to live alone and needs to organize her expenses. She has a lot of interest in cryptocurrencies and currently she is using spreadsheets to store her entire expenses database and so has been facing difficulties in keeping all the data organized because it is not possible for her to find useful statistics of her expenses, useful information about the criptocurrency and she is having trouble getting organized with the transactions.
 
 
 ## Proposed Solution
 
-Design statement:
-I will to design and make a Digial Wallet for a client who is Ms. Jones. The Digital wallet will about ———— and is constructed using the software pycharm. It will take  ———- to make and will be evaluated according to the criteria ———.
+
+I will design and make a Digial Wallet for a client who is Ms. Jones. The Digital Wallet is constructed using program langague Python, because it is easy to understand compared to other languages and because is extremely powerful and offers a wide possibility of developing systems.I will use the the software pycharm to develope the project because the tool provides code analysis, debugging tool, code completion among other things that facilitate the development of the code. The digital Wallet It will be evaluated according to the success criteria above. It will allow Ms jones to find useful statistics of her expenses, useful information about the criptocurrency and organize her data. Ms.Jones is open to explore a cryptocurrency selected by the developer.That is the reason why I chose Polkadot to be the criptocurrency on the digital wallet. Polkadot is a protocol that connects blockchains, allowing value and data to be sent across previously incompatible networks (Bitcoin and Ethereum, for example) It’s also designed to be fast and scalable. The DOT token is used for stakin and governance, it can be bought or sold on Coinbase and other exchanges. Due to Polkadot's introduction of numerous advanced technology and trading tools to the crypto market, it has indeed achieved massive growth and was one of the best-performing crypto assets in 2021. As evidence, the price of 1 DOT has rised to 8.3 USD by the beginning of 2022.
+
+
+
 
 
 ## Success Criteria
@@ -45,7 +27,7 @@ I will to design and make a Digial Wallet for a client who is Ms. Jones. The Dig
 7. The eletronic Ledger show the total spend, the total spend by category and by month.
 8. The eletronic ledger can convert Polkadot to Dollars
 9. The eletronic Ledger can show informations about the program and author
-10. The eletronic Ledger ca show the total amount saved.
+10. The eletronic Ledger can show the total amount saved.
 11. The eletronic Ledge can allow the user to sign in and create a new account or to just login.
 12. The eletronic Ledger has a safe login system to protect the data
 13. the system has different functions to validate the input
@@ -60,6 +42,11 @@ I will to design and make a Digial Wallet for a client who is Ms. Jones. The Dig
 
 
 ## Flow Diagrams
+
+### Function to validate the category(rent,food,travel,saving) used on option 2 to enter new transaction and option 5 to show the total spend of a category: :
+
+![QUIZ 002 (3)](https://user-images.githubusercontent.com/111819437/194742628-c167268c-aa7a-45f6-821a-79ae0288c213.png)
+
 
 
 ## Record of Tasks
@@ -89,7 +76,7 @@ I will to design and make a Digial Wallet for a client who is Ms. Jones. The Dig
 | 21      	| Code for the ninth option:Show the total spend                     	| To allow the user to see the total spend during all months and all categories.                                              	| 30 minutes    	| 7 oct                  	| C         	|
 | 22      	| Code for the tenth option:Show the total saved                     	| To allow the user to see how much money she still has saved                                                                 	| 30 minutes    	| 7 oct                  	| C         	|
 | 23      	| Code for the eleventh option: Exit                                 	| To exit the program and say bye to the user                                                                                 	| 30 minutes    	| 7 oct                  	| C         	|
-| 24      	| Create a while loop to the options                                 	| To allow the user to enter more than an option without the program closing                                                  	| 1 hour        	| 8 oct                  	| C         	|
+| 24      	| Create a while loop to the options in the menu                                	| To allow the user to enter more than an option without the program closing                                                  	| 1 hour        	| 8 oct                  	| C         	|
 | 25      	| Put comments in the program                                        	| To allow other programmers to understand how the program works                                                              	| 10 minutes    	| 8 oct                  	| C         	|
 | 26      	| Make the design of the program organized and pretty                	| To allow the the user to understand the instructions and make the program attractive for the user                           	| 2 hours       	| 8 oct                  	| C         	|
 | 27      	| Messages of clear instructions and feedbacks for the user          	| To make the program more accessible                                                                                         	| 30 minutes    	| 8 oct                  	| C         	|
@@ -135,20 +122,25 @@ My client required an option to show all data organized. I created a file with a
 
 ### code to open, read and print database
 
-![Screen Shot 2022-10-09 at 15 34 28](https://user-images.githubusercontent.com/111819437/194741784-bd671cec-a0fc-480e-8533-e7d2f8b9e9a7.png)
+![Screen Shot 2022-10-09 at 19 13 39](https://user-images.githubusercontent.com/111819437/194751033-6a32f9e3-ef2d-424c-a61d-77ff95eaa33d.png)
 
 
 ## Enter new transactions and saving
-My client required an option to enter new transactions and deposit, I create an option that asks the user for the date, category and amount of transaction, and the open the Database file and print the new data
+My client required an option to enter new transactions and deposit, I create an option that asks the user for the date, category and amount of transaction, and then open the Database file and print the new data.
 
-![Screen Shot 2022-10-09 at 15 25 50](https://user-images.githubusercontent.com/111819437/194741486-606b3565-5e8f-40e7-8d58-5944a1a4b214.png)
+![Screen Shot 2022-10-09 at 19 18 53](https://user-images.githubusercontent.com/111819437/194751274-09a4832c-94e2-4595-b170-c6d9558d2504.png)
+
+
+
+
 
 ## Graph
-My client required an option to show useful statistics. I tought about creating a graph,first open and read the database and the striping and splitting the lines to have the values, date and category. The I sum all the values of the different cattegories and divided by 100 and multiplied a square of by the result and printing creating a graph of the amout of money spend in each category.
+My client required an option to show useful statistics. I tought about creating a graph. First the program open and read the database and then strip and split the lines to have the values, date and category. Then I add all the values of the different cattegories and divided by 100 and multiplied a square of by the result and printing creating a graph of the amout of money spend in each category.
 
-![Screen Shot 2022-10-09 at 15 32 57](https://user-images.githubusercontent.com/111819437/194741710-7cd0f418-e832-4979-8c82-9012d2b513cc.png)
+![Screen Shot 2022-10-09 at 19 17 09](https://user-images.githubusercontent.com/111819437/194751194-677bc567-d9e5-496d-8b57-b1aeb1b3aadb.png)
 
-![Screen Shot 2022-10-09 at 15 33 08](https://user-images.githubusercontent.com/111819437/194741719-28412f21-d441-4fe0-8da6-e90768974bc7.png)
+![Screen Shot 2022-10-09 at 19 17 25](https://user-images.githubusercontent.com/111819437/194751201-c14559a4-aef8-46f0-b7f3-930b4b2f645f.png)
+
 
                 
 
