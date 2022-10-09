@@ -40,15 +40,15 @@ I will to design and make a Digial Wallet for a client who is Ms. Jones. The Dig
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
 4. The eletronic ledger show all data organized
-5.The eletronic Ledger show grap of  transactions
-6.the eletronic Ledger show useful informations of Polkadot
+5. The eletronic Ledger show grap of  transactions
+6. the eletronic Ledger show useful informations of Polkadot
 7. The eletronic Ledger show the total spend, the total spend by category and by month.
-8.The eletronic ledger can convert Polkadot to Dollars
+8. The eletronic ledger can convert Polkadot to Dollars
 9. The eletronic Ledger can show informations about the program and author
 10. The eletronic Ledger ca show the total amount saved.
-11.The eletronic Ledge can allow the user to sign in and create a new account or to just login.
-12.The eletronic Ledger has a safe login system to protect the data
-13.the system has different functions to vlidate th input
+11. The eletronic Ledge can allow the user to sign in and create a new account or to just login.
+12. The eletronic Ledger has a safe login system to protect the data
+13. the system has different functions to validate the input
 
 # Criteria B: Design
 
