@@ -5,9 +5,9 @@
 
 ## Problem definition
 
-My client is Ms. Jones. She just moved in to live alone and needs to organize her expenses. She has a lot of interest in cryptocurrencies and currently she is using spreadsheets to store her entire expense database and so has been facing difficulties in keeping all the data organized because it is not possible for her to find useful statistics of her expenses, and she’s having trouble getting organized with the transactions.
+My client is Ms. Jones. She just moved in to live alone and needs to organize her expenses. She has a lot of interest in cryptocurrencies and currently she is using spreadsheets to store her entire expenses database and so has been facing difficulties in keeping all the data organized because it is not possible for her to find useful statistics of her expenses, and she’s having trouble getting organized with the transactions.
 
-DATABASE
+HER DATABASE
 
 FOOD...........02/09/2022.....100 DOT
 RENT...........03/09/2022.....500 DOT
@@ -28,25 +28,27 @@ TRAVEL.........10/09/2022.....100 DOT
 FOOD...........09/10/2022.....200 DOT
 RENT...........09/10/2022.....500 DOT
 
-| Date | Description | Category | Amount  |
-|------|-------------|----------|---------|
-| Sep 23 2022 | bought a house | Expenses | 10 BTC |
-| Sep 24 2022 | food for house celebration | Food | 0.000001 BTC |
-
 
 ## Proposed Solution
 
 Design statement:
-I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
+I will to design and make a Digial Wallet for a client who is Ms. Jones. The Digital wallet will about ———— and is constructed using the software pyvharm. It will take  ———- to make and will be evaluated according to the criteria ———.
 
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4.
-5.
-6.
+4. The eletronic ledger show all data organized
+5.The eletronic Ledger show grap of  transactions
+6.the eletronic Ledger show useful informations of Polkadot
+7. The eletronic Ledger show the total spend, the total spend by category and by month.
+8.The eletronic ledger can convert Polkadot to Dollars
+9. The eletronic Ledger can show informations about the program and author
+10. The eletronic Ledger ca show the total amount saved.
+11.The eletronic Ledge can allow the user to sign in and create a new account or to just login.
+12.The eletronic Ledger has a safe login system to protect the data
+13.the system has different functions to vlidate th input
 
 # Criteria B: Design
 
