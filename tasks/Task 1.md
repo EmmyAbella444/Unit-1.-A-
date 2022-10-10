@@ -9,6 +9,8 @@ Task 1: Create a program and the flow diagram that shows the colors of all the l
 ![Screen Shot 2022-10-10 at 17 24 00](https://user-images.githubusercontent.com/111819437/194868735-50f77f49-e61d-4748-aae5-6d2fd7bb34ea.png)
 
 Task 2: Using the program above, create another program that allows the user to enter a number and the program outputs the color that should be used in the locker
+
+
 ![Screen Shot 2022-10-10 at 21 43 21](https://user-images.githubusercontent.com/111819437/194869041-0505df47-658d-4b65-bc8f-85ac10a4a7bf.png)
 
 
