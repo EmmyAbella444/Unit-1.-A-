@@ -9,5 +9,9 @@
 
 ### Solution to QUIZ 003 HL
 
+![Screen Shot 2022-10-10 at 12 04 47](https://user-images.githubusercontent.com/111819437/194794007-59ef6bab-238c-4925-a5c2-9b1d9e89114b.png)
+
+
+
 ### Flowchart HL
 
