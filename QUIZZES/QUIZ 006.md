@@ -5,3 +5,6 @@
 # SOLUTION TO QUIZ 006 SL
 
 ![Screen Shot 2022-10-10 at 13 56 14](https://user-images.githubusercontent.com/111819437/194801236-60518202-0623-48c0-acbf-f14a9c819861.png)
+
+# Flowdiagram SL
+![QUIZ 005 SL  (2)](https://user-images.githubusercontent.com/111819437/197340657-a376c70e-e1a7-4681-9bb6-77447ec79485.png)
